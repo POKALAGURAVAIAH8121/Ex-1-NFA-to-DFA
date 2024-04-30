@@ -280,7 +280,7 @@ char *NFA_TABLE[states][symbols + 1];
  ind = indexing(dfa_states);
  if (ind != -1)
  strcpy(buffer, &dfa_states[++start_index].states);
- zz++;
+ zz++; 
  }
  // display the DFA TABLE
  Display_DFA(last_index, dfa_states, DFA_TABLE);
